@@ -1,0 +1,542 @@
+[ROL] Actuá como diseñador de páginas web y especialista en automatizaciones para emprendimientos
+
+[TAREA] Redactá una lista de ideas y pasos a seguir para armar mi página web con automatizaciones en n8n y Api
+
+[FORMATO] Un listado de ideas con sus pasos para que la página web sea fácil de leer
+
+[CONTEXTO] Debo realizar un trabajo final integrador para la diplomatura que estoy cursando "Diplomatura en IA aplicada en entornos digitales de gestión", donde se integre lo aprendido y utilizarlo para que aporte un valor real a mi emprendimiento: Artuli (taller de inglés lúdico) y mi cuenta profesional, donde creo una comunidad aportando ideas y mi conocimiento a docentes de inglés para ayudar a su labor y hacer un trabajo más liviano. Este emprendimiento cuenta con el taller y con la cuenta profesional donde ambos están conectados.
+
+[EJEMPLOS] Mi idea es utilizar todo lo aprendido para crear mi página web con dos botones donde lleve a: "soy docente" y a "quiero aprender inglés" para que destine a los docentes de inglés a acceder a métodos virtuales: recursos gratuitos, cursos, contacto WhatsApp e IG, etc; y a quienes quieren aprender inglés a acceder al taller presencial: a mi contacto (whatsApp y cuenta de IG y metodología del taller con videos y fotos.
+
+Sí. Tu idea es muy adecuada para el trabajo final porque no sería simplemente “hacer una página web”, sino diseñar un pequeño ecosistema digital para Artuli en el que la IA y las automatizaciones resuelvan problemas reales de gestión, comunicación y acceso a recursos.
+
+Además, la consigna aclara que no se evalúa la complejidad técnica, sino el criterio, el proceso y la reflexión. Incluso una maqueta navegable bien pensada puede ser suficiente si la implementación completa resulta demasiado compleja.
+
+Yo plantearía el proyecto así:
+
+1. Concepto general del proyecto
+
+Crear una web central de Artuli que funcione como punto de entrada a dos comunidades relacionadas:
+
+Soy docente → recursos, ideas y herramientas para docentes de inglés.
+Quiero aprender inglés → información sobre Artuli, talleres, metodología y contacto.
+
+La idea diferencial sería que la web no sea solamente informativa, sino que tenga automatizaciones detrás para captar consultas, entregar recursos, organizar contactos y facilitar la gestión.
+
+El concepto podría ser:
+
+“Artuli: un espacio para aprender, enseñar y crear en inglés.”
+
+Esto conecta tus dos actividades bajo una misma marca.
+
+2. Definir el problema que querés resolver
+
+Antes de construir la web, conviene formular claramente el problema.
+
+Actualmente tenés dos públicos:
+
+Docentes de inglés
+
+Buscan ideas para sus clases.
+Necesitan recursos.
+Pueden interesarse por cursos o capacitaciones.
+Te siguen en Instagram.
+Pueden necesitar contactarte.
+
+Familias/niños interesados en aprender inglés
+
+Quieren saber qué es Artuli.
+Necesitan entender la metodología.
+Quieren ver cómo son las clases.
+Quieren consultar horarios, edades y precios.
+Necesitan una vía rápida de contacto.
+
+La web resolvería el problema de tener esta información dispersa y permitiría que cada persona encuentre rápidamente aquello que necesita.
+
+3. Página de inicio
+
+La Home debería ser muy sencilla.
+
+Podría tener:
+
+ARTULI
+
+“English, creativity & play”
+
+Una breve explicación de qué es Artuli.
+
+Después, dos botones grandes:
+
+SOY DOCENTE
+
+QUIERO APRENDER INGLÉS
+
+Debajo podrías incluir:
+
+Qué es Artuli.
+Quién soy.
+Instagram.
+Testimonios.
+Una sección de recursos destacados.
+Contacto.
+
+La clave es que la persona pueda identificar en pocos segundos qué camino debe elegir.
+
+4. Sección “SOY DOCENTE”
+
+Esta sería la parte destinada a tu comunidad profesional.
+
+Podría contener:
+
+Recursos gratuitos
+
+Por ejemplo:
+
+Worksheets.
+Juegos.
+Flashcards.
+Ideas para clases.
+Actividades con IA.
+Actividades por nivel.
+Material imprimible.
+
+Cada recurso podría tener un botón:
+
+“Quiero este recurso”
+
+Y ahí empieza una automatización.
+
+5. Automatización para entregar recursos
+
+Acá aparece una de las partes más interesantes del proyecto.
+
+Podrías crear este flujo:
+
+Docente → selecciona recurso → completa formulario → n8n → registra contacto → envía recurso automáticamente
+
+Por ejemplo:
+
+El docente hace clic en “Descargar”.
+Aparece un formulario:
+Nombre.
+Email.
+Nivel en el que trabaja.
+Edad de sus alumnos.
+La información llega a una API/webhook.
+n8n recibe los datos.
+n8n guarda el contacto.
+n8n identifica qué recurso solicitó.
+n8n envía automáticamente el recurso por email.
+El docente recibe un mensaje con el material.
+
+Esto convierte una página estática en una herramienta de gestión y captación de contactos.
+
+6. Crear una base de datos de docentes
+
+Podrías utilizar Google Sheets, Airtable, Notion u otra herramienta como base de datos.
+
+Por ejemplo:
+
+Nombre	Email	Nivel	Edad alumnos	Recurso solicitado	Fecha
+
+n8n podría completar automáticamente estos datos.
+
+Esto tiene valor real para tu emprendimiento porque empezás a construir una base de contactos de personas que ya demostraron interés en tu contenido.
+
+7. Automatización de segmentación
+
+Podés hacer que n8n clasifique automáticamente a los docentes.
+
+Por ejemplo:
+
+Nivel
+
+Inicial
+Primaria
+Secundaria
+Adultos
+
+Interés
+
+Juegos
+Grammar
+Speaking
+IA
+Recursos imprimibles
+Cursos
+
+Entonces, en el futuro podrías enviar comunicaciones diferentes según el interés de cada persona.
+
+Esto le agrega una dimensión de personalización mediante automatización.
+
+8. Sección “CURSOS”
+
+Dentro de “Soy docente” podrías tener:
+
+Cursos y capacitaciones
+
+Cada curso podría mostrar:
+
+Nombre.
+Para quién es.
+Qué aprenderá.
+Modalidad.
+Duración.
+Precio.
+Próximas fechas.
+
+Botón:
+
+QUIERO SABER MÁS
+
+Ese botón podría llevar a WhatsApp o activar otro formulario conectado a n8n.
+
+9. Sección “QUIERO APRENDER INGLÉS”
+
+Esta sección estaría destinada a las familias.
+
+Podría explicar:
+
+¿Qué es Artuli?
+
+Un taller de inglés donde los niños aprenden a través de:
+
+Juego.
+Arte.
+Conversación.
+Creatividad.
+Historias.
+Exploración.
+Actividades prácticas.
+
+Después:
+
+¿Cómo son las clases?
+
+Podrías incorporar fotos y videos reales de los talleres.
+
+También:
+
+Edades.
+Modalidad.
+Duración.
+Días.
+Lugar.
+Cupos.
+Preguntas frecuentes.
+
+Y un botón muy visible:
+
+QUIERO CONSULTAR POR ARTULI
+
+10. Automatización de consultas de Artuli
+
+Podrías crear otro flujo:
+
+Familia → formulario → n8n → registro → WhatsApp/email → seguimiento
+
+Por ejemplo, el formulario podría preguntar:
+
+Nombre del adulto.
+Nombre del niño/a.
+Edad.
+Ciudad.
+Nivel de inglés.
+¿Cómo conoció Artuli?
+¿Qué información quiere recibir?
+
+n8n registra automáticamente la consulta.
+
+Incluso podrías hacer que se clasifique:
+
+Nuevo interesado → consulta inicial → información enviada → seguimiento → inscripción
+
+Esto convierte a la web en una pequeña herramienta de CRM.
+
+11. Integrar WhatsApp
+
+En ambos caminos debería existir WhatsApp.
+
+Pero no necesariamente con el mismo mensaje.
+
+Para docentes:
+
+“Hola, Juli. Soy docente de inglés y me interesa conocer los recursos/cursos de Artuli.”
+
+Para familias:
+
+“Hola, Juli. Me interesa conocer los talleres de Artuli para mi hijo/a.”
+
+Así podés identificar rápidamente de dónde viene cada consulta.
+
+12. Integrar Instagram
+
+La cuenta profesional y Artuli podrían aparecer como dos espacios conectados.
+
+Por ejemplo:
+
+Para docentes
+→ Instagram profesional.
+
+Para familias
+→ Instagram de Artuli.
+
+Esto refuerza una idea importante de tu proyecto: no son dos emprendimientos separados, sino dos ramas de un mismo ecosistema.
+
+13. Incorporar IA
+
+Para que el trabajo tenga una relación clara con la diplomatura, yo incorporaría IA en un punto concreto y demostrable.
+
+Una posibilidad muy interesante sería un:
+
+“Asistente Artuli para docentes”
+
+El docente podría escribir:
+
+“Necesito una actividad de speaking para alumnos de 10 años sobre animales.”
+
+Y el sistema podría generar una propuesta.
+
+O podría elegir:
+
+Edad.
+Nivel.
+Tema.
+Objetivo.
+Duración.
+Tipo de actividad.
+
+Y recibir una idea de clase.
+
+No hace falta que sea un sistema extremadamente complejo. La consigna justamente señala que una solución simple pero bien pensada puede ser mejor que una aplicación técnicamente compleja sin una reflexión clara.
+
+14. Otra alternativa de IA: generador de actividades
+
+Incluso podrías hacer que la web tenga:
+
+“CREÁ UNA ACTIVIDAD”
+
+El docente selecciona:
+
+Edad: 8–10
+Nivel: A1
+Tema: Animals
+Objetivo: Speaking
+Duración: 30 minutos
+
+Y la IA genera:
+
+Objetivo.
+Materiales.
+Preparación.
+Desarrollo.
+Variantes.
+Preguntas para los alumnos.
+
+Esto estaría muy alineado con tu perfil profesional y con el valor que querés aportar a otros docentes.
+
+15. n8n como “cerebro” del sistema
+
+Podrías mostrar en tu trabajo un esquema como:
+
+WEB
+
+↓
+
+API / Webhook
+
+↓
+
+n8n
+
+↓
+
+Procesamiento
+
+↓
+
+Base de datos
+
+↓
+
+Acción automática
+
+Por ejemplo:
+
+Formulario docente → n8n → guardar contacto → identificar interés → enviar recurso → registrar interacción
+
+Y:
+
+Formulario Artuli → n8n → guardar consulta → clasificar interesado → enviar información → generar seguimiento
+
+Esto te permite demostrar claramente qué aprendiste y dónde utilizaste automatización.
+
+16. API
+
+No intentaría utilizar una API simplemente “porque hay que usar una API”.
+
+Tiene que cumplir una función.
+
+Podrías utilizar una API para conectar:
+
+Formulario web → API → n8n
+
+O:
+
+Web → API de IA → generación de actividad → respuesta al docente
+
+La segunda opción sería especialmente interesante porque conecta:
+
+IA + API + web + n8n
+
+en un único proyecto.
+
+17. Automatización de seguimiento
+
+Una mejora posterior podría ser:
+
+Si alguien consulta por Artuli pero no completa la inscripción:
+
+Día 0: recibe información.
+
+Día 2: recibe un mensaje automático:
+
+“¿Pudiste conocer la propuesta de Artuli?”
+
+Día 5: recibe información sobre metodología/testimonios.
+
+Esto podría quedar como una segunda etapa del proyecto, incluso aunque no llegues a implementarla.
+
+18. Panel interno para vos
+
+Una posible etapa futura sería crear un pequeño dashboard donde puedas visualizar:
+
+Cantidad de docentes registrados.
+Recursos más solicitados.
+Cantidad de consultas de Artuli.
+Fuente de los contactos.
+Cursos que generan mayor interés.
+Cantidad de nuevos leads.
+
+Esto le daría una dimensión de gestión basada en datos al proyecto.
+
+19. Estructura técnica del proyecto
+
+Para presentar el proyecto, podrías plantearlo aproximadamente así:
+
+Frontend
+→ página web de Artuli.
+
+Formulario
+→ captura los datos.
+
+API/Webhook
+→ comunica la web con n8n.
+
+n8n
+→ automatiza los procesos.
+
+Base de datos
+→ almacena contactos e interacciones.
+
+IA
+→ genera contenido personalizado para docentes.
+
+WhatsApp / Email
+→ comunicación automática.
+
+Instagram
+→ canal de adquisición y comunidad.
+
+20. Qué implementaría realmente para el trabajo final
+
+No intentaría construir absolutamente todo.
+
+Para que sea realizable y, al mismo tiempo, tenga suficiente profundidad, elegiría un MVP:
+
+Home
+→ dos caminos.
+
+Soy docente
+→ recurso gratuito + formulario + automatización n8n.
+
+Quiero aprender inglés
+→ información de Artuli + formulario de consulta.
+
+IA
+→ generador sencillo de actividades para docentes.
+
+n8n
+→ registro + clasificación + entrega automática de recurso.
+
+Con eso ya tenés una solución bastante completa.
+
+21. Qué mostrarías en el informe
+
+La consigna pide explicar el tema elegido, objetivos, herramientas, metodología, prompts, resultados, análisis crítico y conclusiones. También pide identificar qué decidiste vos, qué resolvió la IA, qué salió mal y cómo lo corregiste.
+
+Por eso documentaría:
+
+Problema
+“Artuli posee dos públicos relacionados pero con necesidades diferentes.”
+
+↓
+
+Oportunidad
+“Crear un espacio digital que centralice ambas propuestas.”
+
+↓
+
+Solución
+“Una web con dos recorridos personalizados.”
+
+↓
+
+IA
+“Generación de actividades y asistencia para docentes.”
+
+↓
+
+Automatización
+“Captación, clasificación y seguimiento de contactos.”
+
+↓
+
+Resultado
+“Un ecosistema digital que reduce tareas manuales y mejora la experiencia del usuario.”
+
+22. Un diferencial que te recomiendo
+
+Yo no presentaría el proyecto simplemente como:
+
+“Creé una página web para Artuli.”
+
+Lo presentaría como:
+
+“Diseño de un ecosistema digital inteligente para Artuli que integra aprendizaje, comunidad docente, generación de recursos y automatización de la gestión.”
+
+Eso eleva mucho el nivel conceptual del proyecto.
+
+La página web sería solamente la interfaz visible. El verdadero proyecto sería el sistema que funciona detrás.
+
+23. Nombre posible para el proyecto
+
+Algunas opciones:
+
+Artuli Hub
+El espacio digital de Artuli para aprender, enseñar y crear.
+
+Artuli Connect
+Conecta docentes, estudiantes, recursos e ideas.
+
+Artuli Digital
+Un ecosistema digital para aprender y enseñar inglés.
+
+Artuli: Learn, Teach & Create
+Más alineado con la identidad creativa de tu proyecto.
+
+Personalmente elegiría Artuli Hub, porque te permite incluir en el futuro cursos, recursos, comunidad, talleres, IA y nuevos productos sin que el nombre quede limitado al taller presencial.
+
+Y hay un punto importante: tu trabajo no necesita llegar obligatoriamente a una aplicación completamente funcional. La propia consigna contempla una maqueta navegable en HTML como Nivel 2 y aclara que un Nivel 2 bien pensado puede superar a un Nivel 1 sin reflexión.
+
+Por eso, haría el proyecto en tres capas: primero diseñar la experiencia y la web, después implementar una automatización n8n que funcione realmente, y finalmente agregar una pequeña funcionalidad de IA mediante API. Eso te da un proyecto suficientemente ambicioso para demostrar lo aprendido, pero acotado para que sea realizable antes de la entrega del 8 de noviembre.
