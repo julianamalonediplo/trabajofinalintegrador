@@ -12,6 +12,7 @@ Este proyecto busca integrar herramientas digitales, inteligencia artificial gen
 ## Objetivos
 
 - Centralizar la información para docentes y familias, las herramientas y los recursos de Artuli en una página web.
+- Construir una estructura digital que pueda ampliarse progresivamente.
 - Automatizar la solicitud y el envío de recursos gratuitos.
 - Generar actividades de inglés personalizadas mediante inteligencia artificial.
 - Desarrollar productos educativos digitales y planificar su comercialización.
@@ -25,10 +26,10 @@ Desarrollada con HTML, CSS y JavaScript. Centraliza las propuestas y herramienta
 Sistema desarrollado con Google Forms, Google Sheets, Google Drive, Gmail y Google Apps Script para gestionar solicitudes y enviar materiales educativos.
 
 ### 3. Generador de actividades con IA
-Herramienta que utiliza Google Apps Script y Gemini para generar actividades de inglés según parámetros pedagógicos definidos por el docente.
+Herramienta que utiliza Google Apps Script y Gemini para generar actividades de inglés con la metodología Artuli y según parámetros pedagógicos definidos por el docente.
 
 ### 4. Ebooks educativos
-Sección incorporada a la web. El ebook para docentes está en etapa final de elaboración. Se prevé desarrollar posteriormente un ebook para familias y automatizar la comercialización mediante Systeme.io.
+Sección incorporada a la web. El ebook para docentes está en etapa final de elaboración. Se prevé desarrollar posteriormente un ebook para familias y automatizar la comercialización mediante Systeme.io u otra herramienta de automatización.
 
 ## Herramientas utilizadas
 
@@ -38,7 +39,7 @@ Sección incorporada a la web. El ebook para docentes está en etapa final de el
 - Google Forms, Google Sheets, Google Drive y Gmail
 - Gemini
 - ChatGPT
-- Systeme.io (integración comercial planificada)
+- Systeme.io u otra plataforma (integración comercial planificada)
 
 ## Estado del proyecto
 
@@ -48,8 +49,8 @@ La sección de ebooks está creada. La automatización de ventas y entrega media
 
 ## Documentación
 
-El informe del Trabajo Final Integrador, junto con la documentación y las evidencias del proceso de desarrollo, se encuentra en la carpeta `trabajo-final-integrador/`.
+El informe del Trabajo Final Integrador, junto con la documentación y las evidencias del proceso de desarrollo, se encuentra en la carpeta `trabajofinalintegrador/registro del proyecto`.
 
 
 
-Juliana Malone - Proyecto desarrollado en el marco de la Diplomatura en IA Aplicada a Entornos Digitales de Gestión, FCE-UBA, cohorte 2026.
+
